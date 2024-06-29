@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/* ---------------------------------navbar--------------------------------- */
+.navbar{
+    height: 70px;
+    background-color: #1C4A4A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 60%;
+}
+
+.logo{
+    background-image: url("logo1.PNG");
+    background-size: cover;
+    height: 60px;
+    width: 140px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*  -------------------------------nav-about------------------------------------- */
+.nav-about{
+    color: white;
+    font-size: 1.25rem;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+}
+
+.nav-about a{
+    display: inline;
+    width: 70%;
+    margin-left: 15px;
+}
+
+/* ------------------------------about------------------------------------ */
+.about-back{
+    background-image: url("aboutimg.jpg");
+    background-size: cover;
+    height: 870px;
+    
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ } 
+
+.about p{
+    font-size: 30px;
+    color: #e6e6ea;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.intro{
+    font-size: 50px;
+    color: #e6e6ea;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.about-intro{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+span{
+    font-size: 60px;
+    color: rgba(221, 146, 17, 0.793);
+    font-weight: bold;
+}
+
+.image{
+    margin-top: 10%;
+    height: 400px;
+    width: 400px;
+    border: 2px solid teal;
+    border-radius: 45%;
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+
+/* ---------------------------About-Me------------------------ */
+.about-me-back{
+    background-image: url("aboutimg.jpg");
+    background-size: cover;
+    height: 500px;
+   
+}
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.about-img{ 
+    margin-left: 12%;
+    margin-top: 5%;
+    height: 380px;
+    width: 380px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-image: url("image.jpg");
+    background-size:cover;
+}
+
+.about-para{
+    margin-top: 5%;
+    width: 60%;
+    color: #e6e6ea;
+}
+
+.about-para h2{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.about-para p{
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.about-cv{
+    margin-left: 30%;
+    margin-top: 5%;
+    height: 40px;
+    width: 140px;
+    background-color: #1C4A4A;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.about-cv a{
+    color: #e6e6ea;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 21.5px;
+}
+
+/* -------------------------my service---------------------------------- */
+.my-service{
+    height: 200px;
+    background-image: url("aboutimg.jpg");
+    background-size: cover;
+}
+
+.service{
+    display: flex;   
+}
+
+.service h1{
+    margin-top: 8%;
+    margin-left: 15%;
+    color: #e6e6ea;
+    
+}
+
+/* --------------------------box---------------------------- */
+.box-back{
+    background-image: url("aboutimg.jpg");
+    background-size: cover;
+    height: 410px;
+}
+
+.box-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box{
+    margin-top: 3%;
+    border: 2px solid rgb(2, 71, 71);
+    border-radius: 20%;
+    height: 300px;
+    width: 25%;
+    background-color: #1C4A4A;
+    transition: background 0.5 ease-in;
+}
+
+.box:hover{
+    background-color: teal;
+    transform: translateY(-10px);
+}
+
+.box-content{
+    color: #e6e6ea;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content ul{
+    margin-top: 5%;
+    margin-left: 5.75%;
+    font-size: 1.35rem;
+    margin-bottom: 10%;
+}
+
+
+/* -------------------------------contact------------------------------------------------- */
+footer{
+    background-image: url("aboutimg.jpg");
+    background-size: cover;
+    height: 200px;
+}
+
+.contact{
+    color: #e6e6ea;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+}
+
+.contact-icon{
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.mail i{
+    font-size: 35px;
+}
+
+.linkedin i{
+    font-size: 35px;
+}
+
+.call i{
+    margin-top: 4px;
+    font-size: 30px;
+}
